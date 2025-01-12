@@ -1,6 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
 
-
+/* skrol */
 .header{
     display: flex;
     justify-content: space-between;
@@ -37,7 +36,7 @@
 .main-left{
     display: flex;
     flex-direction: column;
-    width: 30%;
+    width: 20%;
 
 }
 
@@ -45,12 +44,32 @@
     display: flex;
     flex-direction: column;
     width: 70%;
-
 }
 
 .img-middle{
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    height: 60%;
+    margin-left: 195px;
 }
 
+.title{
+   display: flex;
+    justify-content: center;
+}
 
+figcaption{
+    font-size: 20px;
+    margin: 15px;
+    width: 100%;
+    text-wrap: balance;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+}
+.icon{
+    width: 3%;
+padding: 0.5%;
+
+}
