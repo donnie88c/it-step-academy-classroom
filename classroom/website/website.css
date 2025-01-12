@@ -1,65 +1,23 @@
-*{
-    box-sizing: border-box;
-    margin:0;
-    padding: 0;
-    color: grey;
-    background-color:rgba(235, 235, 235, 0);
-    /* outline: 1px solid red; */
-}
-body{
-    /* display: grid; */
-}
-li,a{
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-weight: 600;
-    font-size: 21px;
-}
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+
 .header{
-    display:flex;
-    /* position: static; */
+    display: flex;
     justify-content: space-between;
-    padding: 30px 10px;
-    background-image: transparent;
-    /* outline: 1px solid red; */
-}
-h1{
-    cursor: pointer;
-    text-transform: uppercase;
-    text-align: left;
-    width: 450px;
-}
-h1:hover{
-    color: rgba(128, 128, 128, 0.562);;
-}
-h4{
-   margin-bottom:5px; 
 }
 .nav-links li{
-display: inline-block;
-padding: 0px 20px;
-list-style-image: none;
-cursor: pointer;
+    list-style-type:none;
+    display:inline-block;
+     padding: 10px;
+     color: grey;
+     font-size: 22px;
+     font-weight: bold;
 }
 .nav-links li:hover{
     text-decoration: underline;
-    color: rgba(128, 128, 128, 0.562);
 }
-.main-content{
-    /* outline: 1px solid red; */
-    width: 90%;
-    font-weight: 600;
-    line-height: 30px;
-    margin:20px;
-    display: flex;
+#header-title{
+    color: grey;
+    font-size:22px;
+    font-weight: bold;
 }
-.main-left{
-display:flex;
-flex-direction: column;
-width: 20%;
-}
-.middle-info{
-    position:absolute;
-    margin-left: 20px;
-}
-
-
