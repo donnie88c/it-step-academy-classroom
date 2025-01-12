@@ -15,9 +15,42 @@
 }
 .nav-links li:hover{
     text-decoration: underline;
+    transform :translateY(-5px);
 }
 #header-title{
     color: grey;
     font-size:22px;
     font-weight: bold;
 }
+
+#header-title:hover{
+    text-decoration: underline;
+    transform :translateY(-5px);
+}
+
+.main-content{
+    display: flex;
+   justify-content: space-around;
+   gap: 0;
+}
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+
+}
+
+.middle-info{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+
+}
+
+.img-middle{
+    width: 50%;
+    height: 50%;
+}
+
+
