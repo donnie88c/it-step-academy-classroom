@@ -3,29 +3,32 @@ body,html{
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     box-sizing:border-box;
+    /* background-color: grey; */
+}
+h1{
+    margin-left: 50px;
 }
 .container{
     display: flex;
 }
 .sidebar{
-    width: 20%;
+    width: 15%;
     background-color:#333;
     color: white;
+    height: 100vh;
 }
 .sidebar  ul li{
     list-style: none;
     font-size: 22px;
 }
 li{
-    /* padding-left: 20px; */
-    /* padding-right: 50px; */
     padding-top: 20px;
     padding-bottom: 20px;
     width: 200px;
     font-size: 30px;
 }
 .logo-img{
-    width: 200px;
+    width: 100px;
     margin-left: 50px;
     margin-top: 20px;
 }
@@ -34,14 +37,39 @@ li{
 }
 .charts{
     display: flex;
-    gap: 30px;
+    gap: 80px;
     padding:50px;
-
-
+    padding-top: 10px;
 }
 .chart{
-    background-color: rgba(142, 145, 144, 0.379);
-    padding: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
+    background-color: rgba(220, 231, 227, 0.379);
+    padding:10px 50px 10px 20px ;
+}
+.table{
+    background-color:rgba(128, 128, 128, 0.075);
+    padding: 15px;
+    margin-left: 50px;
+}
+#left{
+    border-bottom: 1px solid black;
+    padding-right: 150px;
+    padding-left: 10px;
+}
+#right{
+    border-bottom: 1px solid black;
+    padding-left: 150px;
+    border-collapse: separate;
+}
+@media (max-width:1550px){
+    .table{
+        margin-right: 50px;
+    }
+}
+@media (min-width:1314px) and (max-width:1549px){
+    .table{
+        width: 75%;
+    }
+    .charts{
+        width: 70%;
+    }
 }
