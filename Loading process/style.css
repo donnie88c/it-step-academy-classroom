@@ -1,0 +1,64 @@
+.container{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: fit-content;
+    outline: 1px solid black;
+    /* position:absolute; */
+    /* top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%); */
+}
+.line-info{
+display: flex;
+flex-direction: column;
+margin-left: 10px;
+}
+.line{
+    border: 1px solid blue;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.percentage{
+    background-color: cyan;
+    padding-right: 60px;
+    padding-top: 5px;
+}
+.minutes{
+    padding-top: 5px;
+    padding-left: 200px;
+}
+button{
+    height: 30px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 5px 15px 5px 15px;
+    background-color: dodgerblue;
+    margin-left: 5px;
+}
+@media (max-width:988px){
+    .container{
+        display: flex;
+    }
+}
+@media (min-width:800px) and (max-width:987px){
+    .container{
+        display: block;
+    }
+    .main img{
+        width: 100%;
+    }
+   .line-info{
+    display: flex;
+    flex-direction: column;
+   }
+   .line{
+    width: 99.9%;
+   }
+   button{
+    width: 99.4%;
+   }
+}
