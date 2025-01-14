@@ -1,0 +1,153 @@
+
+/* skrol */
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-links li{
+    list-style-type:none;
+    display:inline-block;
+     padding: 10px;
+     color: grey;
+     font-size: 22px;
+     font-weight: bold;
+}
+.nav-links li:hover{
+    text-decoration: underline;
+    transform :translateY(-5px);
+    cursor:pointer
+}
+#header-title{
+    color: grey;
+    font-size:22px;
+    font-weight: bold;
+}
+
+#header-title:hover{
+    text-decoration: underline;
+    transform :translateY(-5px);
+    cursor: pointer;
+}
+
+.main-content{
+    display: flex;
+   justify-content: space-around;
+   gap: 0;
+}
+
+.main-left{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+
+}
+
+.middle-info{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    /* outline: 1px solid red; */
+}
+
+.img-middle{
+    width: 60%;
+    height: 60%;
+    margin-left: 195px;
+}
+
+.title{
+   display: flex;
+    justify-content: center;
+}
+
+figcaption{
+    font-size: 20px;
+    margin: 15px;
+    width: 100%;
+    text-wrap: balance;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-end;
+}
+.icon{
+width: 3%;
+padding: 0.5%;
+}
+
+@media (max-width:1200px){
+    .icons{
+        margin-top: 30px;
+        margin-right: 80px;
+    }
+}
+@media (min-width:1001px) and (max-width:1200px){
+    .icons{
+        margin-top: 60px;
+    }
+    figure{
+        align-items: center;
+    }
+}
+@media (max-width:1001px) and (min-width:800px){
+    .icons{
+        margin-top: 120px;
+    }
+    .main-left{
+        font-size: 18px;
+    }
+  .img-middle{
+   width: 400px;
+   margin-left: 50px;
+   align-items: center;
+   text-align: center;
+  }
+}
+
+@media (max-width:799px) and (min-width:650px){
+    .main-content{
+       font-size: 19px;
+    }
+    #header-title{
+        display: none;
+    }
+    .nav-links{
+        margin-left: 40px;
+        display: flex;
+    }
+    .main-left{
+        line-height: 1;
+    }
+    .icons{
+        margin-top: 200px;
+    }
+    .icon{
+        width: 6%;
+    }
+    .img-middle{
+        width: 340px;
+        margin-left: 20px;
+    }
+}
+@media (max-width:649px) and (min-width:330px){
+    .main-content{
+        display: block;
+    }
+    #header-title{
+        display: none;
+    }
+    .middle-info{
+        width: 100%;
+    }
+    .img-middle{
+        width: 400px;
+        margin-left: 100px;
+    }
+    .main-left{
+        display: inline;
+        font-size: 20px;
+        margin-left: 20px;
+    }
+}
+
