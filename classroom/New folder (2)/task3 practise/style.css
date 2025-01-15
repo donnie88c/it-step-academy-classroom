@@ -146,4 +146,14 @@ li{
     .chart{
         margin-bottom: 20px;  
 }
+#left{
+    padding: 5px;
+}
+#right{
+    padding: 0;
+}
+.table{
+    display: block;
+    flex-direction:column;
+}
 }
