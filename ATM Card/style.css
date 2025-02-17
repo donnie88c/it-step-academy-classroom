@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+    font-size: 22px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.card {
+    background-color: rgba(159, 205, 205, 255);
+    width: 800px;
+    border-radius: 5px;
+    height: 450px;
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    box-shadow: 20px 10px 40px 1px rgba(105, 196, 219, 0.37);
+}
+
+h1 {
+    background-color: rgba(221, 97, 33, 255);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    line-height: 1.8;
+    color: white;
+    word-spacing: 2px;
+    width: 300px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: -40px;
+    text-align: center;
+}
+
+.card-number {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.card-name {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+
+.dates-csv {
+    display: inline-flex;
+    flex-direction: row;
+    flex-basis: 100%;
+    gap: 10px;
+    width: 43%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+label {
+    margin-left: 10px;
+    color: rgba(59, 59, 59, 0.952);
+}
+
+input {
+    border: none;
+    background-color: rgba(169, 211, 210, 255);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.466);
+    width: 50%;
+    height: 40px;
+    margin-left: 10px;
+}
+
+img {
+    width: 250px;
+    aspect-ratio: 1/1;
+    position: absolute;
+    left: 600px;
+    top: 225px;
+    clip-path: inset(0% 20% 10% 0%);
+}
+
+form {
+    margin-top: 40px;
+}
+
+#csv {
+    margin-left: 160px;
+}
+
+.placeholders {
+    display: flex;
+    justify-content: space-between;
+    width: 51.5%;
+}
+
+input::placeholder {
+    padding-left: 10px
+}
